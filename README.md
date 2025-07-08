@@ -3,6 +3,14 @@
  - Instalar kind na maquina local 
  - Instalar binario kubectl para execução dos comandos 
 
+
+## Instalando o Auto Complete 
+```
+source <(kubectl completion bash) # configura o autocomplete na sua sessão atual (antes, certifique-se de ter instalado o pacote bash-completion).
+
+echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanentemente ao seu shell.
+ 
+```
 ## Instalancdo kubectl....
 ```
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
@@ -19,7 +27,7 @@ kubectl version --client
  - kubectl 
  - Ubuntu 24.04
  - yaml 
- - auto complet  
+ - auto complete  
 
 
  
