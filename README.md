@@ -5,7 +5,7 @@
 
  
 ## Tecnologias utilizadas:
- 
+  
  - kind 
  - kubectl 
  - Ubuntu 24.04
@@ -30,6 +30,7 @@ nodes:
 - role: worker
 
   ```
+## Kind: Uma ferramenta para execução de contêineres Docker que simulam o funcionamento de um cluster Kubernetes. É utilizado para fins didáticos, de desenvolvimento e testes. O Kind não deve ser utilizado para produção;
 
  ```kind
  
