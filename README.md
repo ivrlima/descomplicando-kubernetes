@@ -10,9 +10,9 @@
  - kubectl 
  - Ubuntu 24.04
  - yaml 
-  
+ - auto complet  
 
-## Criar o yaml file para criar o cluster com kind 
+
  
  ## Clonar o repositorio 
  ```git 
@@ -20,6 +20,17 @@
  ``` 
   
  ## Criar o cluster baseado no arquivo de configuração 
+
+  ```vim 
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+- role: worker
+- role: worker
+
+  ```
+
  ```kind
  
  cd day-1 && 
