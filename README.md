@@ -4,7 +4,7 @@
  - Instalar binario kubectl para execução dos comandos 
 
  
-## Tecnologia utilizadas:
+## Tecnologias utilizadas:
  
  - kind 
  - kubectl 
