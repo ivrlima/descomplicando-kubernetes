@@ -71,8 +71,8 @@ status: {}
 
 ```
 
-## Obs: o auto complete não funciona quando adicionamos o alias k="kubectl"
-## No .bashrc somente utilizando kubectl run <tab>
+### Obs: o auto complete não funciona quando adicionamos o alias k="kubectl"
+### No .bashrc somente utilizando kubectl run <tab>
 
 
 ## [Referencia][https://kind.sigs.k8s.io/docs/user/quick-start/]
