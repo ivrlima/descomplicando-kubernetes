@@ -9,6 +9,14 @@
 source <(kubectl completion bash) # configura o autocomplete na sua sessão atual (antes, certifique-se de ter instalado o pacote bash-completion).
 
 echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanentemente ao seu shell.
+
+echo k="kubectl" >> ~/.bashrc 
+
+source ~/.bashrc
+
+--obs: para funcionar o auto-complete com alias, execute o comando abaixo.. 
+
+complete -F __start_kubectl k 
  
 ```
 ## Instalancdo kubectl....
@@ -99,9 +107,6 @@ status: {}
  kubectl get pods -w  
 
 ```
-
-### Obs: o auto complete não funciona quando adicionamos o alias k="kubectl"
-### No .bashrc somente utilizando kubectl run <tab>
 
 
 ## [Referencia][https://kind.sigs.k8s.io/docs/user/quick-start/]
